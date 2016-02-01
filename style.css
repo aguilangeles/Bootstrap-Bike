@@ -9,14 +9,17 @@
 .vintage-oliva, .laboriosa{
 	min-height: 400px;
 }
-.vintage-oliva-text, .laboriosa-text{
+.vintage-oliva-text, .laboriosa-text, .retro-bike-text{
 	min-height: 211px;
 	padding-left: 40px;
 	padding-right: 40px;
 	text-align: center;
 }
-.vintage-oliva-second-img, .laboriosa-second-img{
+.vintage-oliva-second-img, .laboriosa-second-img, .retro-central-img{
 	margin-top: 20px;
+}
+.retro-bike{
+	min-height: 500px;
 }
 .row.no-gutters {
    margin-right: 0;
@@ -26,4 +29,7 @@
 .row.no-gutters > [class*=" col-"] {
   padding-right: 0;
   padding-left: 0;
+}
+.retro-bike-text{
+	min-height: 311px;
 }
