@@ -33,3 +33,32 @@
 .retro-bike-text{
 	min-height: 311px;
 }
+.tweet{
+	text-align: center;
+	min-height: 300px;
+}
+.tweet-text{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.gallery{
+	min-height: 400px;
+}
+.discover{
+	margin-right: 15px;
+	margin-left: 15px;
+	min-height: 150px;
+	background-color: black;
+	text-align: center;
+}
+.btn.btn-large{
+	margin-top: 60px;
+	padding-left: 40px;
+	padding-right: 40px;
+	height: 40px;
+	border-style: solid;
+	border-color: gray;
+	background-color: black;
+	color:gray;
+	border-radius: 0px;
+}
