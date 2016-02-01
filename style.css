@@ -1,7 +1,29 @@
 .first-image{
+	min-height: 500px;
 	padding-top: 51px;
 }
 .presentation{
-	height:400px; 
+	min-height:300px; 
 	text-align: center;
+}
+.vintage-oliva, .laboriosa{
+	min-height: 400px;
+}
+.vintage-oliva-text, .laboriosa-text{
+	min-height: 211px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: center;
+}
+.vintage-oliva-second-img, .laboriosa-second-img{
+	margin-top: 20px;
+}
+.row.no-gutters {
+   margin-right: 0;
+   margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
 }
