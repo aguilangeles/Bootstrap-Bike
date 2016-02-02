@@ -1,8 +1,15 @@
-* p{
-	color: gray;
-}
+
 body{
 	font-family: 'Roboto', serif;
+}
+body p{
+	color: gray;
+	line-height: 24px;
+	font-size: 18px;
+}
+.title{
+	text-transform: uppercase;
+	margin-bottom: 20px;
 }
 .first-image, .vintage-oliva, .laboriosa, .retro-bike, .image-1,.image-2, .image-4{
 	min-height: 600px;
@@ -47,19 +54,24 @@ body{
 	min-height: 400px;
 }
 .tweet-text{
+	margin-top: 100px;
 	padding-left: 40px;
 	padding-right: 40px;
 }
-
+.tweet-text p{
+	font-size: 25px;
+	line-height: 35px;
+}
 .discover{
 	margin-right: 15px;
 	margin-left: 15px;
 	min-height: 200px;
 	background-color: black;
 	text-align: center;
+
 }
 .btn.btn-large{
-	margin-top: 60px;
+	margin-top: 80px;
 	padding-left: 40px;
 	padding-right: 40px;
 	height: 40px;
@@ -67,10 +79,15 @@ body{
 	border-color: gray;
 	background-color: black;
 	color:gray;
-	border-radius: 0px;
+	border-radius: 0px;letter-spacing: 2px;
 }
 .stayon{
 	text-align: center;
+	margin-top: 120px;
+}
+.stay-title{
+	margin-bottom: 30px;
+	color: gray;
 }
 input#correo.form-control{
 	width: 276px;
@@ -88,16 +105,25 @@ input#correo.form-control{
 	border-radius: 0px;
 }
 footer{
-	min-height: 300px;
-	background-color: #c3c3c3;
+
+	min-height: 250px;
+	background-color:#F6F6F6;
+	clear: both;
+	padding-top: 100px;
 }
+
 .fa-4x, .fa-2x{
 	color: #5CB8B5;
 }
 .fa-1x{
 	color: lightblue;
 }
-
+.address{
+	text-align: left;
+}
+.contactme{
+	text-align: right;;
+}
 .social{ 
 	text-align: center;
 }
