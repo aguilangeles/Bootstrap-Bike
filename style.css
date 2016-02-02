@@ -1,34 +1,37 @@
 * p{
 	color: gray;
 }
+body{
+	font-family: 'Roboto', serif;
+}
 .first-image, .vintage-oliva, .laboriosa, .retro-bike, .image-1,.image-2, .image-4{
 	min-height: 600px;
 }
 .presentation, .gallery, .image-7, .image-7-b, .stayon{
 	min-height: 500px;
 }
+.image-3{
+	min-height: 200px;
+}
 .first-image{
-	/*min-height: 500px;*/
 	padding-top: 51px;
 }
 
 .presentation{
-	/*min-height:300px; */
 	text-align: center;
 }
-.vintage-oliva, .laboriosa{
-	/*min-height: 400px;*/
+.new-gen{
+	margin-top: 120px;
 }
+
 .vintage-oliva-text, .laboriosa-text, .retro-bike-text{
-	min-height: 211px;
+	min-height: 371px;
 	padding-left: 40px;
 	padding-right: 40px;
 	text-align: center;
 }
 
-.retro-bike{
-	/*min-height: 500px;*/
-}
+
 .row.no-gutters {
    margin-right: 0;
    margin-left: 0;
@@ -38,9 +41,7 @@
   padding-right: 0;
   padding-left: 0;
 }
-.retro-bike-text{
-	min-height: 311px;
-}
+
 .tweet{
 	text-align: center;
 	min-height: 400px;
@@ -49,9 +50,7 @@
 	padding-left: 40px;
 	padding-right: 40px;
 }
-.gallery{
-	/*min-height: 400px;*/
-}
+
 .discover{
 	margin-right: 15px;
 	margin-left: 15px;
@@ -71,7 +70,6 @@
 	border-radius: 0px;
 }
 .stayon{
-	/*min-height: 400px;*/
 	text-align: center;
 }
 input#correo.form-control{
@@ -79,8 +77,6 @@ input#correo.form-control{
 }
 .form-control{
 	height: 50px;
-	
-
 }
 .btn.go-btn{
 	margin-top: 0px;
@@ -113,36 +109,28 @@ footer{
 	margin: 0 5px 0 5px;
 }
 .image-1{
-	/* min-height: 600px; */
 	 background: transparent url('http://lorempixel.com/1250/600/abstract') no-repeat top left; 
 	 background-size: cover;
 }
 .image-2{
-	/*min-height: 600px; */
 	background: transparent url('http://lorempixel.com/833/600/sports') no-repeat top left; 
 	background-size: cover;
 }
 .image-3{
-	/*<img src="http://lorempixel.com/415/150" alt="">*/
-	min-height: 150px; 
-	background: transparent url('http://lorempixel.com/415/150/animals') no-repeat top left; 
+ 
+	background: transparent url('http://lorempixel.com/415/200/animals') no-repeat top left; 
 	background-size: cover;
-	margin-top: 19px;
 }
 .image-4{
-	/*<img src="http://lorempixel.com/416/500" alt="">*/
-	/*min-height: 600px;*/
 	background: transparent url('http://lorempixel.com/415/600') no-repeat top left; 
 	background-size: cover;
 }
 .image-5{
-	/*<img src="http://lorempixel.com/416/200" alt="">*/
 	min-height: 250px; 
 	background: transparent url('http://lorempixel.com/415/250/people') no-repeat top left; 
 	background-size: cover;
 }
 .image-5-bottom{
-	/*<img src="http://lorempixel.com/416/200" alt="">*/
 	min-height: 250px; 
 	margin-top: 250px;
 	background: transparent url('http://lorempixel.com/415/250/nature') no-repeat top left; 
@@ -163,13 +151,10 @@ footer{
 	background-size: cover;
 }
 .image-7{
-	/*min-height: 500px; */
 	background: transparent url('http://lorempixel.com/208/500/') no-repeat top left; 
 	background-size: cover;
 }
-
 .image-7-b{
-	/*min-height: 500px; */
 	background: transparent url('http://lorempixel.com/208/500/city') no-repeat top left; 
 	background-size: cover;
 }
