@@ -131,5 +131,33 @@ input#correo.form-control{
 	min-height: 500px; 
 	background: transparent url('http://lorempixel.com/415/500') no-repeat top left; 
 	background-size: cover;
-	margin-top: 19px;
+}
+.image-5{
+	/*<img src="http://lorempixel.com/416/200" alt="">*/
+	min-height: 200px; 
+	background: transparent url('http://lorempixel.com/415/200') no-repeat top left; 
+	background-size: cover;
+}
+.image-6-left{
+min-height: 200px; 
+	background: transparent url('http://lorempixel.com/208/200/cats') no-repeat top left; 
+	background-size: cover;
+}
+.image-6-right{
+min-height: 200px; 
+	background: transparent url('http://lorempixel.com/208/200') no-repeat top left; 
+	background-size: cover;
+}
+.image-7{
+	/*<img src="http://lorempixel.com/208/400/animals" alt="">*/
+	min-height: 400px; 
+	background: transparent url('http://lorempixel.com/208/400') no-repeat top left; 
+	background-size: cover;
+}
+
+.image-7-b{
+	/*<img src="http://lorempixel.com/208/400/animals" alt="">*/
+	min-height: 400px; 
+	background: transparent url('http://lorempixel.com/208/400/city') no-repeat top left; 
+	background-size: cover;
 }
