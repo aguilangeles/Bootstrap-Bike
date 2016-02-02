@@ -1,6 +1,13 @@
+* p{
+	color: gray;
+}
 .first-image{
 	min-height: 500px;
 	padding-top: 51px;
+}
+.first-image img{
+	height: 500px;
+	max-width: 100%;
 }
 .presentation{
 	min-height:300px; 
@@ -79,27 +86,17 @@ input#correo.form-control{
 	height: 50px;
 	padding-left: 40px;
 	padding-right: 40px;
-	
 	border-style: solid;
-	
 	background-color: #B0F4B7;
-	
 	border-radius: 0px;
 }
-.circle{
-	font-size: 2em;
-	position: relative;
-    display: inline-block;
-    width: 2em;
-    height: 2em;
-    line-height: 2em;
-    vertical-align: middle;
-	border:2px solid orange; 
-	border-radius:50%;
+.fa-4x, .fa-2x{
+	color: #5CB8B5;
 }
-.circle a {
-	color: orange;
+.fa-1x{
+	color: lightblue;
 }
+
 .social{ 
 	
 	text-align: center;
