@@ -1,20 +1,23 @@
 * p{
 	color: gray;
 }
-.first-image{
+.first-image, .vintage-oliva, .laboriosa, .retro-bike, .image-1,.image-2, .image-4{
+	min-height: 600px;
+}
+.presentation, .gallery, .image-7, .image-7-b, .stayon{
 	min-height: 500px;
+}
+.first-image{
+	/*min-height: 500px;*/
 	padding-top: 51px;
 }
-.first-image img{
-	height: 500px;
-	max-width: 100%;
-}
+
 .presentation{
-	min-height:300px; 
+	/*min-height:300px; */
 	text-align: center;
 }
 .vintage-oliva, .laboriosa{
-	min-height: 400px;
+	/*min-height: 400px;*/
 }
 .vintage-oliva-text, .laboriosa-text, .retro-bike-text{
 	min-height: 211px;
@@ -22,11 +25,9 @@
 	padding-right: 40px;
 	text-align: center;
 }
-.vintage-oliva-second-img, .laboriosa-second-img, .retro-central-img{
-	margin-top: 20px;
-}
+
 .retro-bike{
-	min-height: 500px;
+	/*min-height: 500px;*/
 }
 .row.no-gutters {
    margin-right: 0;
@@ -42,19 +43,19 @@
 }
 .tweet{
 	text-align: center;
-	min-height: 300px;
+	min-height: 400px;
 }
 .tweet-text{
 	padding-left: 40px;
 	padding-right: 40px;
 }
 .gallery{
-	min-height: 400px;
+	/*min-height: 400px;*/
 }
 .discover{
 	margin-right: 15px;
 	margin-left: 15px;
-	min-height: 150px;
+	min-height: 200px;
 	background-color: black;
 	text-align: center;
 }
@@ -70,7 +71,7 @@
 	border-radius: 0px;
 }
 .stayon{
-	min-height: 400px;
+	/*min-height: 400px;*/
 	text-align: center;
 }
 input#correo.form-control{
@@ -90,6 +91,10 @@ input#correo.form-control{
 	background-color: #B0F4B7;
 	border-radius: 0px;
 }
+footer{
+	min-height: 300px;
+	background-color: #c3c3c3;
+}
 .fa-4x, .fa-2x{
 	color: #5CB8B5;
 }
@@ -98,9 +103,7 @@ input#correo.form-control{
 }
 
 .social{ 
-	
 	text-align: center;
-
 }
 .social ul {
 	padding-left: 0;
@@ -110,54 +113,63 @@ input#correo.form-control{
 	margin: 0 5px 0 5px;
 }
 .image-1{
-	 min-height: 500px; 
-	 background: transparent url('http://lorempixel.com/1250/500') no-repeat top left; 
+	/* min-height: 600px; */
+	 background: transparent url('http://lorempixel.com/1250/600/abstract') no-repeat top left; 
 	 background-size: cover;
 }
 .image-2{
-	min-height: 400px; 
-	background: transparent url('http://lorempixel.com/833/400') no-repeat top left; 
+	/*min-height: 600px; */
+	background: transparent url('http://lorempixel.com/833/600/sports') no-repeat top left; 
 	background-size: cover;
 }
 .image-3{
 	/*<img src="http://lorempixel.com/415/150" alt="">*/
 	min-height: 150px; 
-	background: transparent url('http://lorempixel.com/415/150') no-repeat top left; 
+	background: transparent url('http://lorempixel.com/415/150/animals') no-repeat top left; 
 	background-size: cover;
 	margin-top: 19px;
 }
 .image-4{
 	/*<img src="http://lorempixel.com/416/500" alt="">*/
-	min-height: 500px; 
-	background: transparent url('http://lorempixel.com/415/500') no-repeat top left; 
+	/*min-height: 600px;*/
+	background: transparent url('http://lorempixel.com/415/600') no-repeat top left; 
 	background-size: cover;
 }
 .image-5{
 	/*<img src="http://lorempixel.com/416/200" alt="">*/
-	min-height: 200px; 
-	background: transparent url('http://lorempixel.com/415/200') no-repeat top left; 
+	min-height: 250px; 
+	background: transparent url('http://lorempixel.com/415/250/people') no-repeat top left; 
 	background-size: cover;
 }
+.image-5-bottom{
+	/*<img src="http://lorempixel.com/416/200" alt="">*/
+	min-height: 250px; 
+	margin-top: 250px;
+	background: transparent url('http://lorempixel.com/415/250/nature') no-repeat top left; 
+	background-size: cover;
+}
+
+.pull-left, .pull-right{
+	height: 250px;
+	width: 208px;
+}
+
 .image-6-left{
-min-height: 200px; 
-	background: transparent url('http://lorempixel.com/208/200/cats') no-repeat top left; 
+ 	background: transparent url('http://lorempixel.com/208/250/cats') no-repeat top left; 
 	background-size: cover;
 }
 .image-6-right{
-min-height: 200px; 
-	background: transparent url('http://lorempixel.com/208/200') no-repeat top left; 
+	background: transparent url('http://lorempixel.com/208/250/food') no-repeat top right; 
 	background-size: cover;
 }
 .image-7{
-	/*<img src="http://lorempixel.com/208/400/animals" alt="">*/
-	min-height: 400px; 
-	background: transparent url('http://lorempixel.com/208/400') no-repeat top left; 
+	/*min-height: 500px; */
+	background: transparent url('http://lorempixel.com/208/500/') no-repeat top left; 
 	background-size: cover;
 }
 
 .image-7-b{
-	/*<img src="http://lorempixel.com/208/400/animals" alt="">*/
-	min-height: 400px; 
-	background: transparent url('http://lorempixel.com/208/400/city') no-repeat top left; 
+	/*min-height: 500px; */
+	background: transparent url('http://lorempixel.com/208/500/city') no-repeat top left; 
 	background-size: cover;
 }
