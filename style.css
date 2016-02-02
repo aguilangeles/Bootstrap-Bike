@@ -109,3 +109,27 @@ input#correo.form-control{
 	display: inline;
 	margin: 0 5px 0 5px;
 }
+.image-1{
+	 min-height: 500px; 
+	 background: transparent url('http://lorempixel.com/1250/500') no-repeat top left; 
+	 background-size: cover;
+}
+.image-2{
+	min-height: 400px; 
+	background: transparent url('http://lorempixel.com/833/400') no-repeat top left; 
+	background-size: cover;
+}
+.image-3{
+	/*<img src="http://lorempixel.com/415/150" alt="">*/
+	min-height: 150px; 
+	background: transparent url('http://lorempixel.com/415/150') no-repeat top left; 
+	background-size: cover;
+	margin-top: 19px;
+}
+.image-4{
+	/*<img src="http://lorempixel.com/416/500" alt="">*/
+	min-height: 500px; 
+	background: transparent url('http://lorempixel.com/415/500') no-repeat top left; 
+	background-size: cover;
+	margin-top: 19px;
+}
