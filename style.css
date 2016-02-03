@@ -144,9 +144,7 @@ input#correo.form-control{
 	border-radius: 0px;
 }
 footer{
-
 	min-height: 250px;
-	
 	clear: both;
 	padding-top: 100px;
 }
@@ -227,30 +225,39 @@ footer{
 }
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-footer .address{
-	
-background-color: red;
-	color:blue;
+
+.address, .social, .contactme{
+	min-width: 500px;
+	margin: auto;
+	background-color: red;
+	min-height: 150px;
 	text-align: center;
+	padding-top: 30px;
 }
 }
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) { 
- footer .address{
-	
-background-color: yellow;
 
-text-align: center;
+.address, .social, .contactme{
+	min-width: 400px;
+	margin: auto;
+	background-color: yellow;
+	min-height: 150px;
+	text-align: center;
+	padding-top: 30px;
 }
  }
  
 /* Landscape phones and down */
 @media (max-width: 480px) {  
-footer .address{
-	
-background-color: blue;
-	
-text-align: center;
+
+.address, .social, .contactme{
+	min-width: 300px;
+	margin: auto;
+	background-color: blue;
+	min-height: 150px;
+	text-align: center;
+	padding-top: 30px;
 }
 }
