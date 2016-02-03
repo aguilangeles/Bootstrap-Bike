@@ -205,15 +205,15 @@ footer{
 
 .pull-left, .pull-right{
 	height: 250px;
-	width: 237px;
+	width: 208px;
 }
 
 .image-6-left{
- 	background: transparent url('http://lorempixel.com/237/250/cats') no-repeat top left; 
+ 	background: transparent url('http://lorempixel.com/208/250/cats') no-repeat top left; 
 	background-size: cover;
 }
 .image-6-right{
-	background: transparent url('http://lorempixel.com/237/250/food') no-repeat top right; 
+	background: transparent url('http://lorempixel.com/208/250/food') no-repeat top right; 
 	background-size: cover;
 }
 .image-7{
