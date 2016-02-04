@@ -147,6 +147,7 @@ footer{
 	min-height: 250px;
 	clear: both;
 	padding-top: 100px;
+	background-color: #EFEFEF;
 }
 
 .fa-4x, .fa-2x{
@@ -229,10 +230,12 @@ footer{
 .address, .social, .contactme{
 	min-width: 500px;
 	margin: auto;
-	background-color: red;
+
 	min-height: 150px;
 	text-align: center;
 	padding-top: 30px;
+	padding-right: 0;
+	padding-left: 0px;
 }
 }
  
@@ -242,10 +245,12 @@ footer{
 .address, .social, .contactme{
 	min-width: 400px;
 	margin: auto;
-	background-color: yellow;
+
 	min-height: 150px;
 	text-align: center;
 	padding-top: 30px;
+	padding-right: 0px;
+	padding-left: 0px;
 }
  }
  
@@ -255,9 +260,12 @@ footer{
 .address, .social, .contactme{
 	min-width: 300px;
 	margin: auto;
-	background-color: blue;
+
 	min-height: 150px;
 	text-align: center;
 	padding-top: 30px;
+	padding-right: 0;
+	padding-left: 0px;
+
 }
 }
