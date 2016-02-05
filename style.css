@@ -51,13 +51,13 @@ body p{
 	margin-bottom: 20px;
 }
 
-.first-image, .vintage-oliva, .laboriosa, .retro-bike, .image-1,.image-2, .image-4{
+.first-image, .vintage-oliva, .laboriosa, .retro-bike, .image-1,.left-box-1, .image-4{
 	min-height: 600px;
 }
 .presentation, .gallery, .image-7, .image-7-b, .stayon{
 	min-height: 500px;
 }
-.image-3{
+.seat-red{
 	min-height: 200px;
 }
 .first-image{
@@ -179,16 +179,16 @@ footer{
 	margin: 0 5px 0 5px;
 }
 .image-1{
-	 background: transparent url('http://lorempixel.com/1250/600/abstract') no-repeat top left; 
+	 background: transparent url('img/hero-bg.jpg') no-repeat top left; 
 	 background-size: cover;
 }
-.image-2{
-	background: transparent url('http://lorempixel.com/833/600/sports') no-repeat top left; 
+.left-box-1{
+	background: transparent url('img/left-box-1.jpg') no-repeat top left; 
 	background-size: cover;
 }
-.image-3{
+.seat-red{
  
-	background: transparent url('http://lorempixel.com/415/200/animals') no-repeat top left; 
+	background: transparent url('img/seat-red.jpg') no-repeat top left; 
 	background-size: cover;
 }
 .image-4{
