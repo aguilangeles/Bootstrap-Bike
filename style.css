@@ -17,7 +17,9 @@ body p{
 	margin: auto;
 
 }
-
+.navbar-brand>img {
+	display: inline;
+}
 .navbar.navbar-light.nav.navbar-fixed-top{
 	min-height: 120px;background-color: #F4F5FC;
 }
