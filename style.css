@@ -51,13 +51,13 @@ body p{
 	margin-bottom: 20px;
 }
 
-.first-image, .vintage-oliva, .laboriosa, .retro-bike, .image-1,.left-box-1, .image-4{
+.first-image, .vintage-oliva, .laboriosa, .retro-bike, .image-1,.left-box-1, .left-box-2, .red-frame, .red-bike{
 	min-height: 600px;
 }
-.presentation, .gallery, .image-7, .image-7-b, .stayon{
+.presentation, .gallery, .l4, .l5, .stayon{
 	min-height: 500px;
 }
-.seat-red{
+.seat-red, .seat-black, .chrome-wheels{
 	min-height: 200px;
 }
 .first-image{
@@ -191,19 +191,39 @@ footer{
 	background: transparent url('img/seat-red.jpg') no-repeat top left; 
 	background-size: cover;
 }
-.image-4{
-	background: transparent url('http://lorempixel.com/415/600') no-repeat top left; 
+
+.left-box-2{
+	background: transparent url('img/left-box-2.jpg') no-repeat top left; 
 	background-size: cover;
 }
-.image-5{
+.seat-black{
+ 
+	background: transparent url('img/seat-black.jpg') no-repeat top left; 
+	background-size: cover;
+}
+
+.red-frame{
+	background: transparent url('img/red-frame.jpg') no-repeat top left; 
+	background-size: cover;
+}
+.red-bike{
+	background: transparent url('img/red-bike.jpg') no-repeat top left; 
+	background-size: cover;
+}
+.chrome-wheels{
+ 
+	background: transparent url('img/chrome-wheels.jpg') no-repeat top left; 
+	background-size: cover;
+}
+/*.l6{
 	min-height: 250px; 
 	background: transparent url('http://lorempixel.com/415/250/people') no-repeat top left; 
 	background-size: cover;
-}
-.image-5-bottom{
+}*/
+.l3{
 	min-height: 250px; 
 	margin-top: 250px;
-	background: transparent url('http://lorempixel.com/415/250/nature') no-repeat top left; 
+	background: transparent url('img/l3.jpg') no-repeat top left; 
 	background-size: cover;
 }
 
@@ -212,20 +232,25 @@ footer{
 	width: 208px;
 }
 
-.image-6-left{
- 	background: transparent url('http://lorempixel.com/208/250/cats') no-repeat top left; 
+.l1{
+ 	background: transparent url('img/l1.jpg') no-repeat top left; 
 	background-size: cover;
 }
-.image-6-right{
-	background: transparent url('http://lorempixel.com/208/250/food') no-repeat top right; 
+.l2{
+	background: transparent url('img/l2.jpg') no-repeat top right; 
 	background-size: cover;
 }
-.image-7{
-	background: transparent url('http://lorempixel.com/208/500/') no-repeat top left; 
+.l4{
+	background: transparent url('img/l4.jpg') no-repeat top left; 
 	background-size: cover;
 }
-.image-7-b{
-	background: transparent url('http://lorempixel.com/208/500/city') no-repeat top left; 
+.l5{
+	background: transparent url('img/l5.jpg') no-repeat top left; 
+	background-size: cover;
+}
+.l6{
+	min-height: 250px; 
+	background: transparent url('img/l6.jpg') no-repeat top left; 
 	background-size: cover;
 }
 /* Portrait tablet to landscape and desktop */
