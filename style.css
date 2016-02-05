@@ -121,6 +121,7 @@ body p{
 	letter-spacing: 2px;
 }
 .stayon{
+
 	text-align: center;
 	margin-top: 120px;
 }
@@ -132,6 +133,7 @@ input#correo.form-control{
 	width: 276px;
 }
 .form-control{
+	display: block;
 	height: 50px;
 }
 .btn.go-btn{
@@ -237,6 +239,11 @@ footer{
 	padding-right: 0;
 	padding-left: 0px;
 }
+.form-inline{
+
+    width: 300px;
+
+}
 }
  
 /* Landscape phone to portrait tablet */
@@ -245,12 +252,16 @@ footer{
 .address, .social, .contactme{
 	min-width: 400px;
 	margin: auto;
-
 	min-height: 150px;
 	text-align: center;
 	padding-top: 30px;
 	padding-right: 0px;
 	padding-left: 0px;
+}
+.form-inline{
+
+    width: 200px;
+
 }
  }
  
@@ -260,12 +271,14 @@ footer{
 .address, .social, .contactme{
 	min-width: 300px;
 	margin: auto;
-
 	min-height: 150px;
 	text-align: center;
 	padding-top: 30px;
 	padding-right: 0;
 	padding-left: 0px;
 
+}
+.form-inline{
+    width: 200px;
 }
 }
