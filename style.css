@@ -11,6 +11,10 @@ body p{
 	padding-left: 0;
 	padding-right: 0;
 }
+/*===========================================================================
+			NAVEGACION
+=============================================================================*/
+
 .collapse.navbar-collapse{
 	width: 700px;
 	text-align: center;
@@ -46,20 +50,20 @@ body p{
 	letter-spacing: 2px;
 
 }
+.row.no-gutters {
+   margin-right: 0;
+   margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
 .title{
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
 
-.first-image, .vintage-oliva, .laboriosa, .retro-bike, .image-1,.left-box-1, .left-box-2, .red-frame, .red-bike{
-	min-height: 600px;
-}
-.presentation, .gallery, .l4, .l5, .stayon{
-	min-height: 500px;
-}
-.seat-red, .seat-black, .chrome-wheels{
-	min-height: 200px;
-}
 .first-image{
 	padding-top: 120px;
 }
@@ -70,6 +74,15 @@ body p{
 .new-gen{
 	margin-top: 120px;
 }
+.first-image, .vintage-oliva, .laboriosa, .retro-bike, .hero-bg,.left-box-1, .left-box-2, .red-frame, .red-bike{
+	min-height: 600px;
+}
+.presentation, .gallery, .l4, .l5, .stayon{
+	min-height: 500px;
+}
+.seat-red, .seat-black, .chrome-wheels{
+	min-height: 200px;
+}
 
 .vintage-oliva-text, .laboriosa-text, .retro-bike-text{
 	min-height: 371px;
@@ -79,15 +92,7 @@ body p{
 }
 
 
-.row.no-gutters {
-   margin-right: 0;
-   margin-left: 0;
-}
-.row.no-gutters > [class^="col-"],
-.row.no-gutters > [class*=" col-"] {
-  padding-right: 0;
-  padding-left: 0;
-}
+
 
 .tweet{
 	text-align: center;
@@ -147,38 +152,11 @@ input#correo.form-control{
 	background-color: #64C29E;
 	border-radius: 0px;
 }
-footer{
-	min-height: 250px;
-	clear: both;
-	padding-top: 100px;
-	background-color: #EFEFEF;
-}
+/*===========================================================================
+			IMAGENES
+=============================================================================*/
 
-.fa-4x, .fa-2x{
-	color: #5EC29D;
-}
-.fa-1x{
-	color: #4CC6F0;
-}
-.address{
-	padding-left: 100px;
-	text-align: left;
-}
-.contactme{
-	padding-right: 100px;
-	text-align: right;;
-}
-.social{ 
-	text-align: center;
-}
-.social ul {
-	/*padding-left: 0;*/
-}
-.social  ul li{
-	display: inline;
-	margin: 0 5px 0 5px;
-}
-.image-1{
+.hero-bg{
 	 background: transparent url('img/hero-bg.jpg') no-repeat top left; 
 	 background-size: cover;
 }
@@ -215,17 +193,6 @@ footer{
 	background: transparent url('img/chrome-wheels.jpg') no-repeat top left; 
 	background-size: cover;
 }
-/*.l6{
-	min-height: 250px; 
-	background: transparent url('http://lorempixel.com/415/250/people') no-repeat top left; 
-	background-size: cover;
-}*/
-.l3{
-	min-height: 250px; 
-	margin-top: 250px;
-	background: transparent url('img/l3.jpg') no-repeat top left; 
-	background-size: cover;
-}
 
 .pull-left, .pull-right{
 	height: 250px;
@@ -238,6 +205,12 @@ footer{
 }
 .l2{
 	background: transparent url('img/l2.jpg') no-repeat top right; 
+	background-size: cover;
+}
+.l3{
+	min-height: 250px; 
+	margin-top: 250px;
+	background: transparent url('img/l3.jpg') no-repeat top left; 
 	background-size: cover;
 }
 .l4{
@@ -253,6 +226,50 @@ footer{
 	background: transparent url('img/l6.jpg') no-repeat top left; 
 	background-size: cover;
 }
+.l7{
+ 	background: transparent url('img/l7.jpg') no-repeat top left; 
+	background-size: cover;
+}
+.l8{
+	background: transparent url('img/l8.jpg') no-repeat top right; 
+	background-size: cover;
+}
+
+/*===========================================================================
+			FOOTER
+=============================================================================*/
+
+footer{
+	min-height: 250px;
+	clear: both;
+	padding-top: 100px;
+	background-color: #EFEFEF;
+}
+
+
+.address{
+	padding-left: 100px;
+	text-align: left;
+}
+.contactme{
+	padding-right: 100px;
+	text-align: right;;
+}
+.social{ 
+	text-align: center;
+}
+.social ul {
+	/*padding-left: 0;*/
+}
+.social  ul li{
+	display: inline;
+	margin: 0 5px 0 5px;
+}
+
+
+/*===========================================================================
+			MEDIA QUERIES
+=============================================================================*/
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
 
