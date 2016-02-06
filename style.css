@@ -25,7 +25,9 @@ body p{
 	display: inline;
 }
 .navbar.navbar-light.nav.navbar-fixed-top{
-	min-height: 120px;background-color: #F4F5FC;
+
+	min-height: 120px;
+		background-color: #F4F5FA;
 }
 .brand{
 	margin: 0;
@@ -136,14 +138,14 @@ body p{
 	margin-bottom: 30px;
 	color: gray;
 }
-input#correo.form-control{
-	width: 276px;
-}
 .form-control{
-	display: block;
 	height: 50px;
 }
-.btn.go-btn{
+.input-group{
+	text-align: center;
+}
+
+.btn.btn-secondary{
 	margin-top: 0px;
 	height: 50px;
 	padding-left: 40px;
@@ -284,11 +286,7 @@ footer{
 	padding-right: 0;
 	padding-left: 0px;
 }
-.form-inline{
 
-    width: 300px;
-
-}
 }
  
 /* Landscape phone to portrait tablet */
@@ -303,11 +301,7 @@ footer{
 	padding-right: 0px;
 	padding-left: 0px;
 }
-.form-inline{
 
-    width: 200px;
-
-}
  }
  
 /* Landscape phones and down */
@@ -323,7 +317,5 @@ footer{
 	padding-left: 0px;
 
 }
-.form-inline{
-    width: 200px;
-}
+
 }
