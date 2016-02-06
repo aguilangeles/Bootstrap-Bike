@@ -11,15 +11,23 @@ body p{
 	padding-left: 0;
 	padding-right: 0;
 }
+/*===========================================================================
+			NAVEGACION
+=============================================================================*/
+
 .collapse.navbar-collapse{
 	width: 700px;
 	text-align: center;
 	margin: auto;
 
 }
-
+.navbar-brand>img {
+	display: inline;
+}
 .navbar.navbar-light.nav.navbar-fixed-top{
-	min-height: 120px;background-color: #F4F5FC;
+
+	min-height: 120px;
+		background-color: #F4F5FA;
 }
 .brand{
 	margin: 0;
@@ -44,20 +52,20 @@ body p{
 	letter-spacing: 2px;
 
 }
+.row.no-gutters {
+   margin-right: 0;
+   margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
 .title{
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
 
-.first-image, .vintage-oliva, .laboriosa, .retro-bike, .image-1,.image-2, .image-4{
-	min-height: 600px;
-}
-.presentation, .gallery, .image-7, .image-7-b, .stayon{
-	min-height: 500px;
-}
-.image-3{
-	min-height: 200px;
-}
 .first-image{
 	padding-top: 120px;
 }
@@ -68,6 +76,15 @@ body p{
 .new-gen{
 	margin-top: 120px;
 }
+.first-image, .vintage-oliva, .laboriosa, .retro-bike, .hero-bg,.left-box-1, .left-box-2, .red-frame, .red-bike{
+	min-height: 600px;
+}
+.presentation, .gallery, .l4, .l5, .stayon{
+	min-height: 500px;
+}
+.seat-red, .seat-black, .chrome-wheels{
+	min-height: 200px;
+}
 
 .vintage-oliva-text, .laboriosa-text, .retro-bike-text{
 	min-height: 371px;
@@ -77,15 +94,7 @@ body p{
 }
 
 
-.row.no-gutters {
-   margin-right: 0;
-   margin-left: 0;
-}
-.row.no-gutters > [class^="col-"],
-.row.no-gutters > [class*=" col-"] {
-  padding-right: 0;
-  padding-left: 0;
-}
+
 
 .tweet{
 	text-align: center;
@@ -95,6 +104,7 @@ body p{
 	margin-top: 100px;
 	padding-left: 40px;
 	padding-right: 40px;
+	font-style: italic;
 }
 .tweet-text p{
 	font-size: 25px;
@@ -120,6 +130,7 @@ body p{
 	letter-spacing: 2px;
 }
 .stayon{
+
 	text-align: center;
 	margin-top: 120px;
 }
@@ -127,13 +138,14 @@ body p{
 	margin-bottom: 30px;
 	color: gray;
 }
-input#correo.form-control{
-	width: 276px;
-}
 .form-control{
 	height: 50px;
 }
-.btn.go-btn{
+.input-group{
+	text-align: center;
+}
+
+.btn.btn-secondary{
 	margin-top: 0px;
 	height: 50px;
 	padding-left: 40px;
@@ -142,20 +154,102 @@ input#correo.form-control{
 	background-color: #64C29E;
 	border-radius: 0px;
 }
-footer{
+/*===========================================================================
+			IMAGENES
+=============================================================================*/
 
+.hero-bg{
+
+	 background: transparent url('img/hero-bg.jpg') no-repeat top left; 
+	 background-size: cover;
+}
+.left-box-1{
+	background: transparent url('img/left-box-1.jpg') no-repeat top left; 
+	background-size: cover;
+}
+.seat-red{
+ 
+	background: transparent url('img/seat-red.jpg') no-repeat top left; 
+	background-size: cover;
+}
+
+.left-box-2{
+	background: transparent url('img/left-box-2.jpg') no-repeat top left; 
+	background-size: cover;
+}
+.seat-black{
+ 
+	background: transparent url('img/seat-black.jpg') no-repeat top left; 
+	background-size: cover;
+}
+
+.red-frame{
+	background: transparent url('img/red-frame.jpg') no-repeat top left; 
+	background-size: cover;
+}
+.red-bike{
+	background: transparent url('img/red-bike.jpg') no-repeat top left; 
+	background-size: cover;
+}
+.chrome-wheels{
+ 
+	background: transparent url('img/chrome-wheels.jpg') no-repeat top left; 
+	background-size: cover;
+}
+
+.pull-left, .pull-right{
+	height: 250px;
+	width: 208px;
+}
+
+.l1{
+ 	background: transparent url('img/l1.jpg') no-repeat top left; 
+	background-size: cover;
+}
+.l2{
+	background: transparent url('img/l2.jpg') no-repeat top right; 
+	background-size: cover;
+}
+.l3{
+	min-height: 250px; 
+	margin-top: 250px;
+	background: transparent url('img/l3.jpg') no-repeat top left; 
+	background-size: cover;
+}
+.l4{
+	background: transparent url('img/l4.jpg') no-repeat top left; 
+	background-size: cover;
+}
+.l5{
+	background: transparent url('img/l5.jpg') no-repeat top left; 
+	background-size: cover;
+}
+.l6{
+	min-height: 250px; 
+	background: transparent url('img/l6.jpg') no-repeat top left; 
+	background-size: cover;
+}
+.l7{
+ 	background: transparent url('img/l7.jpg') no-repeat top left; 
+	background-size: cover;
+}
+.l8{
+	background: transparent url('img/l8.jpg') no-repeat top right; 
+	background-size: cover;
+}
+
+/*===========================================================================
+			FOOTER
+=============================================================================*/
+
+footer{
 	min-height: 250px;
-	background-color::;
 	clear: both;
 	padding-top: 100px;
+	background-color: #EFEFEF;
 }
 
-.fa-4x, .fa-2x{
-	color: #5EC29D;
-}
-.fa-1x{
-	color: #4CC6F0;
-}
+
 .address{
 	padding-left: 100px;
 	text-align: left;
@@ -174,53 +268,54 @@ footer{
 	display: inline;
 	margin: 0 5px 0 5px;
 }
-.image-1{
-	 background: transparent url('http://lorempixel.com/1250/600/abstract') no-repeat top left; 
-	 background-size: cover;
+
+
+/*===========================================================================
+			MEDIA QUERIES
+=============================================================================*/
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+.address, .social, .contactme{
+	min-width: 500px;
+	margin: auto;
+
+	min-height: 150px;
+	text-align: center;
+	padding-top: 30px;
+	padding-right: 0;
+	padding-left: 0px;
 }
-.image-2{
-	background: transparent url('http://lorempixel.com/833/600/sports') no-repeat top left; 
-	background-size: cover;
+
 }
-.image-3{
  
-	background: transparent url('http://lorempixel.com/415/200/animals') no-repeat top left; 
-	background-size: cover;
-}
-.image-4{
-	background: transparent url('http://lorempixel.com/415/600') no-repeat top left; 
-	background-size: cover;
-}
-.image-5{
-	min-height: 250px; 
-	background: transparent url('http://lorempixel.com/415/250/people') no-repeat top left; 
-	background-size: cover;
-}
-.image-5-bottom{
-	min-height: 250px; 
-	margin-top: 250px;
-	background: transparent url('http://lorempixel.com/415/250/nature') no-repeat top left; 
-	background-size: cover;
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+.address, .social, .contactme{
+	min-width: 400px;
+	margin: auto;
+	min-height: 150px;
+	text-align: center;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-left: 0px;
 }
 
-.pull-left, .pull-right{
-	height: 250px;
-	width: 237px;
+ }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {  
+
+.address, .social, .contactme{
+	min-width: 300px;
+	margin: auto;
+	min-height: 150px;
+	text-align: center;
+	padding-top: 30px;
+	padding-right: 0;
+	padding-left: 0px;
+
 }
 
-.image-6-left{
- 	background: transparent url('http://lorempixel.com/237/250/cats') no-repeat top left; 
-	background-size: cover;
-}
-.image-6-right{
-	background: transparent url('http://lorempixel.com/237/250/food') no-repeat top right; 
-	background-size: cover;
-}
-.image-7{
-	background: transparent url('http://lorempixel.com/208/500/') no-repeat top left; 
-	background-size: cover;
-}
-.image-7-b{
-	background: transparent url('http://lorempixel.com/208/500/city') no-repeat top left; 
-	background-size: cover;
 }
