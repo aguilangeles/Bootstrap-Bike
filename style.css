@@ -157,6 +157,7 @@ input#correo.form-control{
 =============================================================================*/
 
 .hero-bg{
+
 	 background: transparent url('img/hero-bg.jpg') no-repeat top left; 
 	 background-size: cover;
 }
